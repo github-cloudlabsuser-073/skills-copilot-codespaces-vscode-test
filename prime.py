@@ -1,4 +1,5 @@
 def prime(n):
+    """Returns True if n is a prime number, False otherwise."""
     if n < 2:
         return False
     for i in range(2, n):
